@@ -1,8 +1,6 @@
 # react-native-shrinkable-margin #
-<img src="https://postimg.cc/cvkCSnvR" width="762" height="772">
-
-easy responsive react-native UI with static margin
-
+### easy responsive react-native UI with static margin ###
+<img src="https://i.postimg.cc/VNmCX91V/with-Shrink.png" width="762" height="772">
 
 ### Installation ###
 ```bash
@@ -19,11 +17,13 @@ import ShrinkableMargin from 'react-native-shrinkable-margin'
 // use
 <ShrinkableMargin height={100} width={100} />
 ```
-
-|                 pro                       | react-native-reanimated | react-native-gesture-handler |
-| -------------------------------------- | ----------------------- | ---------------------------- |
-| react-native-reanimated-carousel < v3  | <2.7.0                  | \*                           |
-| react-native-reanimated-carousel >= v3 | >=2.7.0                 | \*                           |
+## Properties ##
+| name       | required | type       | default   |
+| -----------| -------- | ---------- | --------- |
+|  width     |   X      |  number    | 0         |
+|  height    |   X      |  number    | 0         |
+|  minRatio  |   X      |  number    | 2         |
+|  style     |   X      |  ViewStyle | undefined |
 
 ### Example ###
 ```js
