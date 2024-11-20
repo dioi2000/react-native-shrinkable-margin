@@ -1,0 +1,34 @@
+{
+  "name": "react-native-shrinkable-margin",
+  "version": "1.0.0",
+  "description": "simple solution for responsive react-native UI",
+  "main": "ShrinkableMargin.tsx",
+  "peerDependencies": {
+    "@types/react": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.0",
+    "typescript": "^4.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dioi2000/react-native-simple-default-props.git"
+  },
+  "keywords": [
+    "react-native",
+    "margin",
+    "responsive",
+    "flex"
+  ],
+  "author": "dioi2000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dioi2000/react-native-simple-default-props/issues"
+  },
+  "homepage": "https://github.com/dioi2000/react-native-simple-default-props#readme"
+}
