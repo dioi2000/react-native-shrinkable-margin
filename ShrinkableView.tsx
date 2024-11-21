@@ -4,20 +4,30 @@ import {
 } from 'react-native';
 
 
-export type ShrinkableMarginProps = {
+/**
+ * simple view with auto Shrink option
+ * 
+ * @param {number} width desired width of view
+ * @param {number} height desired height of view
+ * @param {number} minRatio minimum size ratio of view
+ * @param {ViewStyle} style style of view
+ * 
+ * @returns {View} shrinkable sized view
+ */
+export type ShrinkableViewProps = {
   width?: number
   height?: number
   minRatio?: number
   style?: ViewStyle
 }
 
-const ShrinkableMargin = ({
+const ShrinkableView = ({
   width = 0,
   height = 0,
   minRatio = 2,
   style,
   ...props
-}: ShrinkableMarginProps) => {
+}: ShrinkableViewProps) => {
   const viewStyle = {
     maxWidth: width,
     minWidth: width / minRatio,
@@ -35,4 +45,4 @@ const ShrinkableMargin = ({
   );
 }
 
-export default ShrinkableMargin;
+export default ShrinkableView;
